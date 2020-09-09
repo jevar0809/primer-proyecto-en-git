@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #cdcccf;
+}
+
+
+.formulario
+{
+    width: 500px;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+input[type="text"], input[type="mail"], textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #1435f3;
+    border-radius:5PX ;
+    padding: 10px;
+
+
+}
+
+
+
+input[type="text"]:focus, input[type="mail"]:focus, textarea:focus{
+    border: 3px solid  #f7cb09
+}
+
+
+
+textarea{
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    min-height: 50px;
+}
+
+
+input[type="submit"]{
+    width: 150px;
+    padding: 10px;
+    display: block;
+    margin:10px auto;
+    cursor: pointer;
+
+}
+
+
+input[type="submit"]:hover{
+    background-color:#f010dd;
+    color: black;
+}
+
+
+
+
+
